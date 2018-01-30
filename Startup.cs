@@ -26,12 +26,11 @@ namespace Fisher.Bookstore
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc(routes =>
+           app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name:"default",
+                    name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
-               
             });
         }
     }

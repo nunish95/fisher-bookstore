@@ -19,7 +19,7 @@ namespace Fisher.Bookstore.Controllers{
         [Route("Services/Index")]
 
         public IActionResult Services(){
-            return Content("This is the products page.");
+            return Content("This is the service page.");
         }
         
     }
